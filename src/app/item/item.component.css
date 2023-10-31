@@ -10,8 +10,9 @@
   }
   
   .btn {
-    /* menu buttons flexbox styles */
-    flex-basis: 49%;
+    border: 1px solid grey;
+    margin: 0rem 0.5rem 0rem 0rem;
+    padding: 0.25rem 0.75rem;
   }
   
   .btn-save {

@@ -17,4 +17,5 @@ export class ItemComponent {
     this.editable = false;
     this.item.description = description;
   }
+
 }
