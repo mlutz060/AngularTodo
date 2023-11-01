@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ItemComponent } from '../item/item.component';
-import { Item } from "../item"
+import { Item } from "../../../item"
 
 @Component({
   selector: 'Todo',
