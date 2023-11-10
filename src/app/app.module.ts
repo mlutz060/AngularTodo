@@ -10,6 +10,9 @@ import { NavComponent } from './nav/nav.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CalculatorComponent } from './pages/projects/calculator/calculator.component';
+import { FormComponent } from './form/form.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { PostComponent } from './pages/blog/post/post.component';
 
 const routes: Routes = [
   { path: 'todo', component: TodoComponent},
@@ -28,7 +31,10 @@ const routes: Routes = [
     NavComponent,
     ProjectsComponent,
     ContactComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    FormComponent,
+    BlogComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,

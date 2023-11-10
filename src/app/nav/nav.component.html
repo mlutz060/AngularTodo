@@ -1,13 +1,21 @@
 <nav>
+    <div class="branding">
+        <h2>Madison Blotter</h2>
+        <h4>Angular Portfolio</h4>
+    </div>
     <ul>
         <li>
-            <a href="/home">Home</a>
+            <a class="navElement" 
+            routerLink="/home" 
+            routerLinkActive="active"
+            [routerLinkActiveOptions]={exact:true}
+            >Home</a>
         </li>
         <li>
-            <a href="/projects">Projects</a>
+            <a class="navElement" routerLink="/projects" routerLinkActive="active">Projects</a>
         </li>
         <li>
-            <a href="/contact">Contact</a>
+            <a class="navElement" routerLink="/contact" routerLinkActive="active">Contact</a>
         </li>
     </ul>
 </nav>
